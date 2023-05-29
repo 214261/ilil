@@ -1,0 +1,108 @@
+body {
+  color: #49515a;
+  background: #dae3e7;
+  font-family: "YS Text", Arial, Helvetica, "Arial Unicode MS", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(17, 17, 18);
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section .section-inner {
+  background: #f5f5f5;
+  color: rgb(119, 132, 146);
+  padding: 30px;
+}
+
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #49515a;
+  font-size: 24px;
+}
+
+.languages .item {
+  margin-bottom: 15px;
+}
+
+.education .item .title {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.education .item .title .title-icon {
+  vertical-align: 0.1em;
+  margin-right: 2px;
+}
+
+.education .item .university {
+  font-size: 13px;
+  padding-left: 23px;
+  color: #999;
+}
+
+.education .item .university .year {
+  font-weight: 500;
+  color: #b0b7bf;
+}
+
+.info .info-icon {
+  vertical-align: 0.1em;
+  margin-right: 6px;
+}
+
+.skills .skillset .item {
+  margin-bottom: 30px;
+}
+
+.skills .skillset .level-title {
+  font-size: 16px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+}
+
+.skills .skillset .level-title .level-label {
+  color: #ccd1d6;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.skills .skillset .level-bar {
+  height: 15px;
+  background: #e8e8e8;
+}
+
+.skills .skillset .level-bar-inner {
+  height: 15px;
+  background: #66cb8c;
+}
+
+@media (prefers-color-scheme: dark) {
+  .section .heading {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .section .section-inner {
+    background: #18181a;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .education .item .university .year {
+    filter: brightness(70%);
+  }
+
+  .skills .skillset .level-bar-inner {
+    background: rgb(13, 110, 253);
+  }
+}
